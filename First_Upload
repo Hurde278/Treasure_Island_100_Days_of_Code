@@ -1,0 +1,54 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+choice_1 = input("You've woken up on a dessert island, unsure how you got there. You stand up and brush the sand off and you see a path through a grove of trees. The past gives you the creeps though, so you hesitate. That is until you hear yelling and turn to look down the beach. A group of sword carrying pirates is running towards you, and they don't look happy. You have no choice but to take the path in the grove of trees. As you run down the path you come to a fork in the road. you can either go 'left' or 'right'. Which way to do you go? \n").lower()
+if choice_1 == ('left'):
+  print("You take off down the left path, heart racing. You freeze becasue you hear the clanking of chains and hollering of pirates. As you gaze down your path you see nothing. Then off to your right, throught the tree line, you catch flashes of pirates racing down the trail to where you just were.")
+  
+  choice_2 = input("You wait a few minutes off the side of the trail to see if they split up to follow you. Luckily they decide chasing you isn't worth the trouble and head back towards the beach. You breath a sigh of relief and keep heading down the path. You're finally able to take in your surroundings. The trees form a dense canopy that lets very little light in. There isn't much flora on the ground because of it, but there was enough for you to know when you were and weren't on the path."
+  "After walking for what seemed like hours, you hear the sound of rushing water. Your mouth and throat are dry. You can't remember when the last time you dank anything was, so you take off to the sound of the water. Its a river. Not a big one, but one you could swim across if you had to. You look over at the other side and see the path continues right across from you. To your right you see water becomes more turbulent. You bend down and gulp down a couple handfuls of water until you hear noises coming from the path behind you. It's the sound of dogs barking. You look at the turblent water down stream, then at the path on the other side of the river, and finally to your left upstream. Do you 'swim' across now or do you walk upstream and 'wait' to see if they come to the river? \n" ).lower()
+
+  if choice_2 == ('wait'):
+    print("You quickly dart to your left and hide behing a fallen tree, peeking over it from time to time to see if the pirates had found your trail yet. One of the dogs is sniffing around where you just left and starts slowing walking towards you. You duck down fast and look around. Something catches your eye. It's a boat! You quickly rush to it and push it in the river and start paddling as hard as you can, but nothing you do is working. The current is just too strong. The best you can do is angle towards the other shore. The pirates spot you as you float down the river. Some even run into the water only to disappear underneath it right before they go to you. You manage to get the boat close enough to shore that you could jump out. You look back and see the pirates cursing you and they run up and down the shoreline trying to find a way across.")
+    choice_3 = input("After your river ride you contiue down the path. The path dips and turns and climbs and after an hour of this you become exhausted. Not only are you tired but you're hungry now too. You force yourself to contiune down the trail as it contiunes to dip and turn, leading you who knows were, until you start to hear a familiar sound. The waterfall! Only this time you were at the base of it. The mist from the waterfall was making a rainbow that arched over the path that lead behind it. Being cautious of your surroundings you creep down the path. When you get behind the waterfall you freeze in terror! One of the pirates was waiting for you. But there was something strange with this pirate. Only his feet were sticking out from behind a huge rock and they weren't moving. You sneak up to the rock, hoping to get the jump on him. You gather your courage and jump around the rock only to see it was in fact just the lower body of a pirate. His top half was no where to be seen."
+    "Able to relax now, you see the trail leads to a cave. Oddly enough, the cave had light coming from it, but no noise could be heard. You were still cautious as you walked your way throught it. A couple hundred feet in you come to an open area with three doors. As you stand there wondering which door you should go into the pirates burst into the room just as a boulder crashes into the doorway, sealing everyone inside. The pirates notice and surround you, slowly closing it. You have three options to escape. Which door do you choose? Red, Blue, or Yellow.\n").lower
+    if choice_3 == ('red'):
+      print("You dart for the red door. You try and try but the door only opened slightly then slammed shut. Just then, something in the ceiling catches your eye. You eyes shut up just in time to see a door slide open and lava pour out of it to the center of the room.\nGAME OVER>")
+    elif choice_3 == ('blue'):
+      print("You dart for the blue door. You try and try but the door only opened slightly then slammed shut. Just then, something in the ceiling catches your eye. You eyes shut up just in time to see a door slide open and water pour out of it to the center of the room.\nGAME OVER>")
+    else:
+      print("You dart for the yellow door. It flies open as you crash into it, sending you to the ground on the other side, then slamming behind you. You can heard screams coming from the room, followed by a crashing sound. You narrowly escaped certain death. You stand up and look around to see a vast room with a waterway in it. Sitting in the waterway is a docked boat. Not wasting a second you run to the roat holding it and throw it off and get aboard. As both feet land of the deck of the boat, ghostly pirates around and surround you."
+      'One steps foward and says, "Welcome aboard Captian. Let me show you to your quarters."'
+      "Without question you follow the ghost pirate and he leads you to a room with a bed, gold stacked to the ceiling and more food than you've ever seen in your life."
+      'As you begin to stuff your face, the ghost pirate asks, "Where to Captain?"'
+      'To which your reply, "Home."\n Congratulations! You survived Treasure Island')
+
+  else:
+    print("You walk out into water that starts out knee deep. Glancing back to see if your pursuers are there yet. Nothing, but the barking keeps getting closer. You panic and try to run. What you couldn't see from the shore was in the middle of the river, the riverbed drops out and you fall into an under current. You're able to get your head above water just as the you come up to a waterfall. You swim has hard as you can to get to shore but it's no use. You look back one last time to see pirates searching the place you were just at, and then you're sucked over the edge. \n GAME OVER.")
+
+else: 
+  print("In your haste you don't realize a second group of pirates is making their way down that path. You run right into them and are captured.\n GAME OVER!")
+  
+
+#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
